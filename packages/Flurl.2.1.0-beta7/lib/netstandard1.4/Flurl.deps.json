@@ -1,0 +1,175 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v1.4/",
+    "signature": "a4a7032a6086475fe233bd223ce6455ba0e860c5"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v1.4": {},
+    ".NETStandard,Version=v1.4/": {
+      "Flurl.Library/2.1.0-beta7": {
+        "dependencies": {
+          "System.Globalization.Calendars": "4.0.1",
+          "System.Linq": "4.1.0",
+          "System.Reflection.TypeExtensions": "4.1.0"
+        },
+        "runtime": {
+          "Flurl.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.0.1": {},
+      "Microsoft.NETCore.Targets/1.0.1": {},
+      "System.Collections/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Globalization/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Globalization.Calendars/4.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Globalization": "4.0.11",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.IO/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading.Tasks": "4.0.11"
+        }
+      },
+      "System.Linq/4.1.0": {
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Reflection/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.IO": "4.1.0",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Reflection.Primitives/4.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.1.0": {
+        "dependencies": {
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1"
+        }
+      },
+      "System.Text.Encoding/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Threading.Tasks/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flurl.Library/2.1.0-beta7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q8dRwNFaF794BV43xymNMCmnSJ9vVxanoRadXhIcmSbGnX1HgoAO57+2WLPQgaCHPgRj7eUXKReGTquKGE+saQ=="
+    },
+    "Microsoft.NETCore.Targets/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EdZfo78Yluw/mPAfWwDdcIMX8HnKladNFMXEwUovBwZMfkNkPcYhW/XIMUk0woiYBICmBq7T6AVJSlcpxqKPpA=="
+    },
+    "System.Collections/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LNkuasgMxFBiIPzzvqdlbgROoUwFkBJIeU/LMdB4yPKBXHvgtQB2o4Jb+msSmHfFj1oM9Di8U0lEoOy9wudPCQ=="
+    },
+    "System.Globalization/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VUSVamvb9GHq+f1lnmBl8YcZQ+FLTUwxPFwRmMx7elIJUgGGEQWcw+gBGWBCQm3bhXXVK8RMA4ZQnElYPi+/ug=="
+    },
+    "System.Globalization.Calendars/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M3chwI6H9/2uleI/c/oWE+ztZzlfBzs8M6zEXJncGtS/ISirBqfrM+SWOVH+G42fuujLIbfqnUC+jpEzAL8+vw=="
+    },
+    "System.IO/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zNi7nEO7/t5/Oq7zgWC3kwTwOdkK59bVVqN9xyw3p/2//0MwL8hxCjl2t2hsQV94wq7B2sBKkNXnDL+5u+w4hQ=="
+    },
+    "System.Linq/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JS2NLuvYoi5JOsSMZeJLKCQ3/qMrM015KHCEICdsCXWtE+at9+i/WjgmzCoohi2xl43rF1qVdJFBDGGhFG6mlg=="
+    },
+    "System.Reflection/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jhHkfVyHIDq/obTKeDzavyn2LzuH3+768oeN91JBmD2Hu39/ob50AV9PldoYl42kdT+Nfi3QNbyAtdiHDdp1QA=="
+    },
+    "System.Reflection.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NsRJn07GoLaiJUNOf1iUIhXOXCuZk5WKbOBYiy729S1L3FAuTaQpxZqZzRVD2YZ8uDh8E/MgjbyLrWjwxnBuyg=="
+    },
+    "System.Reflection.TypeExtensions/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HRt+UWapKapXx99vMfQIiWLqS7W+/uXgbaPAvuGjv/ERPTijv2A2VIVuNPgsm1ijpetMmKUYRR+9kgl8g0C6AQ=="
+    },
+    "System.Runtime/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n30XmSyMCLlgQjztf2sPa5zLM51y9B6vBmk1AhWSxu8qSidw1rqCQYBLGLVISg3qC1hd8wEneMyiF/E7kpzo8g=="
+    },
+    "System.Text.Encoding/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JyUfq+sONrzx3ROQ2HIEePbhn+KB5/qzf2CsAMFeE4jQjWbX8X4xkT+ZVThJSyGjABhKmBI1Zey2c0AsgZpiEw=="
+    },
+    "System.Threading.Tasks/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XQa2Ym4dKy428L27tT6JE+K3KL2AQK3+lQ5TZ4MBLkdGGyFCqX7j3nHfHE3A4SNaEswAEbJbQsvQzqHdWxsa7w=="
+    }
+  }
+}

@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section scripts{
+    <script src="~/Content/JavaScripts/Home.js"></script>
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5 col-sm-5">
+            <div id="artistsDiv" class="spacing">
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary spacing" onclick="addArtist();">Lägg till artist</button>
+            </div>
+            <div class="text-center">
+                <button type="button" id="getData" class="btn btn-primary" style="visibility:hidden" onclick="getDataToFilter();">Visa fler val</button>
+            </div>
+            <form id="form" action="Home/Result" method="post" enctype="multipart/form-data" onsubmit="getResult()">
+                <div id="genrsRelatedDiv">
+                    <div id="genres">
+                    </div>
+                    <div id="relatedArtists">
+                    </div>
+
+                    <div id="artistsPopularity" style="visibility:hidden;">
+                        <h2>Populäritet</h2>
+                        <label>Värdera populäritet mellan 0 - 100, där 100 är mest populär.</label>
+                        <input type="range" name="popularityInputName" id="popularityInputId" value="100" min="1" max="100" oninput="popularityOutputId.value = popularityInputId.value">
+                        <output name="popularityOutputName" id="popularityOutputId">100</output>
+                    </div>
+                    <div id="artistslimit" style="visibility:hidden;">
+                        <h2>Låtar</h2>
+                        <label>Antal låtar i resultatlistan.</label>
+                        <input type="range" name="limitInputName" id="limitInputId" value="50" min="1" max="100" oninput="limitOutputId.value = limitInputId.value">
+                        <output name="limitOutputName" id="limitOutputId">50</output>
+                    </div>
+                    <div>
+                        <label id="genrsLabel" style="visibility:hidden; color:red">Not more then 5 itemes</label>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" id="getResult" class="btn btn-primary" onclick="getResult();" style="visibility:hidden">Sök</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-lg-7 col-sm-7">
+            <div id="">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@model NoamsSpotify.ViewModels.ResultViewModel
+@{
+    ViewBag.Title = "Result";
+}
+@section scripts{
+
+    <link href="~/Content/CSS/Result.css" rel="stylesheet" />
+}
+<div class="container">
+    @foreach (var track in Model.Tracks)
+    {
+        <div class="row jumbotron">
+            <div class="col-sm-5">
+                <h1>@track.Artists[0].Name</h1>
+                <h2>@track.Name</h2>
+                <a target="_blank" class="button" href="@track.External_urls.spotify">lysna på Spotify</a>
+            </div>
+            <div class="col-sm-7 text-center">
+                <h2>Album - @track.Album.Name</h2>
+                @if (@track.Album.Images[0].Url == null)
+                {
+                    <img src ="~/Content/img/NO-IMAGE.png" width="250" />
+                }
+                else
+                {
+                    <img src="@track.Album.Images[0].Url" width="250">
+                }
+            </div>
+        </div>
+    }
+</div>
